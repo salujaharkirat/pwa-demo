@@ -18,8 +18,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html?fullscreen=true",
-  "display": "fullscreen",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "scope": "/",
+  "start_url": "/",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
